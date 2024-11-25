@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Create BPKB Record";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form id="bpkbForm">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="AgreementNumber">Agreement Number</label>
+        <input type="text" class="form-control" id="AgreementNumber" name="AgreementNumber" maxlength="100" required />
+    </div>
+    <div class="form-group">
+        <label for="BranchId">Branch ID</label>
+        <input type="text" class="form-control" id="BranchId" name="BranchId" maxlength="10" required />
+    </div>
+    <div class="form-group">
+        <label for="BpkbNo">No. BPKB</label>
+        <input type="text" class="form-control" id="BpkbNo" name="BpkbNo" maxlength="100" required />
+    </div>
+    <div class="form-group">
+        <label for="BpkbDateIn">Tanggal BPKB In</label>
+        <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDate" required />
+    </div>
+    <div class="form-group">
+        <label for="BpkbDate">Tanggal BPKB</label>
+        <input type="date" class="form-control" id="BpkbDate" name="BpkbDate" required />
+    </div>
+    <div class="form-group">
+        <label for="FakturNo">No Faktur</label>
+        <input type="text" class="form-control" id="FakturNo" name="FakturNo" maxlength="100" required />
+    </div>
+    <div class="form-group">
+        <label for="FakturDate">Tanggal Faktur</label>
+        <input type="date" class="form-control" id="FakturDate" name="FakturDate" required />
+    </div>
+    <div class="form-group">
+        <label for="PoliceNo">Nomor Polisi</label>
+        <input type="text" class="form-control" id="PoliceNo" name="PoliceNo" maxlength="20" required />
+    </div>
+    <div class="form-group">
+        <label for="BpkbDateIn">Lokasi Penyimpanan</label>
+        <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDateIn" required />
+    </div>
+    <div class="form-group">
+        <label for="LokasiPenyimpanan" class="form-label">Lokasi Penyimpanan</label>
+        <select class="form-control" id="LokasiPenyimpanan" name="LokasiPenyimpanan" required>
+            <option value="">- Select -</option>
+            @foreach (var item in ViewBag.LokasiPenyimpanan as List<SelectListItem>)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+
+<div id="result"></div>
+
+@section Scripts {
+<script>
+    document.getElementById("bpkbForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Mencegah pengiriman form secara tradisional
+
+        var formData = new FormData(this); // Mengambil data dari form
+
+        // Mengirim data menggunakan fetch
+        fetch('@Url.Action("Create", "Home")', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val() // CSRF Token
+            }
+        })
+            .then(response => response.json()) // Mengharapkan respon dalam format JSON
+            .then(data => {
+                if (data.success) {
+                    document.getElementById("result").innerHTML = "<div class='alert alert-success'>Record created successfully!</div>";
+                } else {
+                    document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Error: " + data.message + "</div>";
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById("result").innerHTML = "<div class='alert alert-danger'>An error occurred!</div>";
+            });
+
+            setTimeout(() => {
+                document.getElementById("message").innerHTML = ''; // Kosongkan elemen pesan
+            },
+            });
+</script>
+}

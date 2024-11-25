@@ -1,0 +1,363 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\controllers\\bpkbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\controllers\\bpkbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\bpkbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\bpkbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\services\\ibpkbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\services\\ibpkbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\mcfwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\mcfwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\models\\storagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\models\\storagelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapi\\mcfwebapi\\mcfwebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DB32E80B-428D-41EA-B4B1-4C5DDF27D711}|MCFWebApi\\MCFWebApi.csproj|solutionrelative:mcfwebapi\\mcfwebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BpkbService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\BpkbService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\BpkbService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\BpkbService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\BpkbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:16:00.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IUserService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:15:45.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\UserService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:15:38.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MCFWebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:13:06.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "MCFWebApi\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:48:44.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\User.cs",
+              "RelativeToolTip": "MCFWebApi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:11:55.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Program.cs",
+              "RelativeToolTip": "MCFWebApi\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:12:01.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "MCFWebApi\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:19:18.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BpkbController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Controllers\\BpkbController.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Controllers\\BpkbController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Controllers\\BpkbController.cs",
+              "RelativeToolTip": "MCFWebApi\\Controllers\\BpkbController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:11:37.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\StorageService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\StorageService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\StorageService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\StorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:16:41.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBpkbService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IBpkbService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\IBpkbService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IBpkbService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\IBpkbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:16:16.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bpkb.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\Bpkb.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Models\\Bpkb.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\Bpkb.cs",
+              "RelativeToolTip": "MCFWebApi\\Models\\Bpkb.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:25:24.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IStorageService.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Services\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Services\\IStorageService.cs",
+              "RelativeToolTip": "MCFWebApi\\Services\\IStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:16:52.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MCFWebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\appsettings.Development.json",
+              "RelativeToolTip": "MCFWebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T17:12:06.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StorageLocation.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\StorageLocation.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Models\\StorageLocation.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Models\\StorageLocation.cs",
+              "RelativeToolTip": "MCFWebApi\\Models\\StorageLocation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:11:26.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MCFWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+              "RelativeDocumentMoniker": "MCFWebApi\\MCFWebApi.csproj",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+              "RelativeToolTip": "MCFWebApi\\MCFWebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T16:07:30.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "McfDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Data\\McfDbContext.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Data\\McfDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Data\\McfDbContext.cs",
+              "RelativeToolTip": "MCFWebApi\\Data\\McfDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:02:54.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "MCFWebApi\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:19:39.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MCFWebApi\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "MCFWebApi\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:18:51.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MCFWebApi",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+              "RelativeDocumentMoniker": "MCFWebApi\\MCFWebApi.csproj",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+              "RelativeToolTip": "MCFWebApi\\MCFWebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T15:58:59.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
