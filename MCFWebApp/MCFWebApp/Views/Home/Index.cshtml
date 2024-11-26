@@ -44,15 +44,18 @@
         <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDateIn" required />
     </div>
     <div class="form-group">
-        <label for="LokasiPenyimpanan" class="form-label">Lokasi Penyimpanan</label>
-        <select class="form-control" id="LokasiPenyimpanan" name="LokasiPenyimpanan" required>
-            <option value="">- Select -</option>
-            @foreach (var item in ViewBag.LokasiPenyimpanan as List<SelectListItem>)
+        <label for="LocationId" class="form-label">Lokasi Penyimpanan</label>
+        <select class="form-control" id="LocationId" name="LocationId" required>
+            @if (ViewBag.LokasiPenyimpanan != null)
             {
-                <option value="@item.Value">@item.Text</option>
+                foreach (var item in ViewBag.LokasiPenyimpanan as List<SelectListItem>)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
             }
         </select>
     </div>
+    <div><input type="hidden" name="UserId" value="@ViewBag.UserId" /></div>
     <button type="submit" class="btn btn-primary mt-3">Submit</button>
 </form>
 
@@ -60,35 +63,40 @@
 
 @section Scripts {
 <script>
-    document.getElementById("bpkbForm").addEventListener("submit", function (event) {
-        event.preventDefault(); // Mencegah pengiriman form secara tradisional
+        document.getElementById("bpkbForm").addEventListener("submit", function (event) {
+            event.preventDefault();
 
-        var formData = new FormData(this); // Mengambil data dari form
+            var formData = new FormData(this);
 
-        // Mengirim data menggunakan fetch
-        fetch('@Url.Action("Create", "Home")', {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val() // CSRF Token
-            }
-        })
-            .then(response => response.json()) // Mengharapkan respon dalam format JSON
-            .then(data => {
-                if (data.success) {
-                    document.getElementById("result").innerHTML = "<div class='alert alert-success'>Record created successfully!</div>";
-                } else {
-                    document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Error: " + data.message + "</div>";
+            fetch('@Url.Action("Create", "Home")', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
                 }
             })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById("result").innerHTML = "<div class='alert alert-danger'>An error occurred!</div>";
-            });
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById("result").innerHTML = "<div class='alert alert-success'>Record created successfully!</div>";
+                        document.getElementById("bpkbForm").reset(); // Reset form jika berhasil
+                    } else {
+                        document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Error: " + data.message + "</div>";
+                    }
 
-            setTimeout(() => {
-                document.getElementById("message").innerHTML = ''; // Kosongkan elemen pesan
-            },
-            });
+                    setTimeout(() => {
+                        document.getElementById("result").innerHTML = '';
+                    }, 2000); // 2 detik
+                })
+                .catch(error => {
+                    document.getElementById("result").innerHTML = "<div class='alert alert-danger'>An error occurred!</div>";
+
+                    setTimeout(() => {
+                        document.getElementById("result").innerHTML = '';
+                    }, 2000); // 2 detik
+                });
+        });
+
+
 </script>
 }

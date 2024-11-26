@@ -1,93 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\",
+  "WorkspaceRootPath": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\dtos\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\services\\accountservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\services\\accountservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\mcfwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\mcfwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\dtos\\bpkbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\dtos\\bpkbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\dtos\\bpkbcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\viewmodel\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\services\\accountservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\services\\accountservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\bpkb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\mcfwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\mcfwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\data\\mcfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\viewmodel\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\viewmodel\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\models\\msstoragelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\models\\msstoragelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\models\\msstoragelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\users\\admin\\source\\repos\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|c:\\data reza\\source code\\mcf\\mcfwebapp\\mcfwebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{91B3DC49-43F5-4072-A075-91DC556FFD39}|MCFWebApp\\MCFWebApp.csproj|solutionrelative:mcfwebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -98,115 +102,249 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 40,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Program.cs",
-              "RelativeToolTip": "MCFWebApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:13:59.462Z"
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "MCFWebApp\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAEUAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T15:31:18.477Z"
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MCFWebApp\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAcwBwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:21:03.046Z"
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:157:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:158:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MCFWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwDkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:39:15.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MCFWebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAYwCYAAAAIAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:41:32.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\User.cs",
-              "RelativeToolTip": "MCFWebApp\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:45:09.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "MCFWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\appsettings.json",
-              "RelativeToolTip": "MCFWebApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-25T14:58:40.029Z"
+              "WhenOpened": "2024-11-25T15:41:32.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MCFWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T15:10:37.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponseApi.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\ResponseApi.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\Models\\ResponseApi.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\ResponseApi.cs",
-              "RelativeToolTip": "MCFWebApp\\Models\\ResponseApi.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwA0AAAAVAAAA",
+              "Title": "AccountServie.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Services\\AccountServie.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\Services\\AccountServie.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Services\\AccountServie.cs",
+              "RelativeToolTip": "MCFWebApp\\Services\\AccountServie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:39:27.909Z"
+              "WhenOpened": "2024-11-25T18:37:57.092Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "BpkbCreate.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\BpkbCreate.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\DTOs\\BpkbCreate.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\BpkbCreate.cs",
+              "RelativeToolTip": "MCFWebApp\\DTOs\\BpkbCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T17:03:44.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MCFWebApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:21:03.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\Program.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Program.cs",
+              "RelativeToolTip": "MCFWebApp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:13:59.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "MCFWebApp\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -215,10 +353,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LocationDto.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\LocationDto.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\DTOs\\LocationDto.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\LocationDto.cs",
+              "RelativeToolTip": "MCFWebApp\\DTOs\\LocationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:55:11.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MCFWebApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:31:18.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseApi.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\ResponseApi.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\Models\\ResponseApi.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\ResponseApi.cs",
+              "RelativeToolTip": "MCFWebApp\\Models\\ResponseApi.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T18:39:27.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MCFWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T15:10:37.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MCFWebApp\\appsettings.json",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\appsettings.json",
+              "RelativeToolTip": "MCFWebApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-25T14:58:40.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MCFWebApp\\Models\\User.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\User.cs",
+              "RelativeToolTip": "MCFWebApp\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:45:09.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MCFWebApp\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "MCFWebApp\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -226,24 +438,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MCFWebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MCFWebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAFoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T15:39:15.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "McfDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Data\\McfDbContext.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Data\\McfDbContext.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\Data\\McfDbContext.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Data\\McfDbContext.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Data\\McfDbContext.cs",
               "RelativeToolTip": "MCFWebApp\\Data\\McfDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +450,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Bpkb.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\Bpkb.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\Bpkb.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\Models\\Bpkb.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\Bpkb.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\Bpkb.cs",
               "RelativeToolTip": "MCFWebApp\\Models\\Bpkb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,35 +462,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BpkbCreate.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\DTOs\\BpkbCreate.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\DTOs\\BpkbCreate.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\DTOs\\BpkbCreate.cs",
-              "RelativeToolTip": "MCFWebApp\\DTOs\\BpkbCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T17:03:44.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountServie.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Services\\AccountServie.cs",
-              "RelativeDocumentMoniker": "MCFWebApp\\Services\\AccountServie.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Services\\AccountServie.cs",
-              "RelativeToolTip": "MCFWebApp\\Services\\AccountServie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:37:57.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\DTOs\\UserDto.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\DTOs\\UserDto.cs",
               "RelativeToolTip": "MCFWebApp\\DTOs\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +474,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MsStorageLocation.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\MsStorageLocation.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\MsStorageLocation.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\Models\\MsStorageLocation.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Models\\MsStorageLocation.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Models\\MsStorageLocation.cs",
               "RelativeToolTip": "MCFWebApp\\Models\\MsStorageLocation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +486,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MCFWebApp.csproj",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
               "RelativeDocumentMoniker": "MCFWebApp\\MCFWebApp.csproj",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
               "RelativeToolTip": "MCFWebApp\\MCFWebApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -323,11 +498,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
               "RelativeDocumentMoniker": "MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
               "RelativeToolTip": "MCFWebApp\\ViewModel\\HomeIndexViewModel.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAywCYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +510,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MCFWebApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "MCFWebApp\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -347,11 +522,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MCFWebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "MCFWebApp\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -359,15 +534,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "MCFWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-25T15:10:38.53Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             }
           ]
         }

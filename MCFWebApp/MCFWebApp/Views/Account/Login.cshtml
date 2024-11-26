@@ -30,20 +30,17 @@
     </body>
 </html>
 <script>
-    // Menunggu DOM selesai dimuat
     document.addEventListener("DOMContentLoaded", function () {
         // Menangani submit form
         const form = document.getElementById("loginForm");
         form.addEventListener("submit", function (e) {
-            e.preventDefault(); // Mencegah form submit default
+            e.preventDefault();
 
-            // Ambil data dari form
             const userDto = {
                 Username: document.getElementById("Username").value,
                 Password: document.getElementById("Password").value
             };
 
-            // Kirim data ke server menggunakan fetch (AJAX murni)
             fetch('/Account/Login', {
                 method: 'POST',
                 headers: {
@@ -51,13 +48,11 @@
                 },
                 body: JSON.stringify(userDto)
             })
-                .then(response => response.json())  // Mengonversi respons menjadi JSON
+                .then(response => response.json())
                 .then(data => {
                     if (data.success) {
-                        // Jika login berhasil, lakukan redirect menggunakan JavaScript
                         window.location.href = data.redirectUrl;
                     } else {
-                        // Jika login gagal, tampilkan pesan error
                         document.getElementById("message").innerHTML = `<div class="alert alert-danger">${data.message}</div>`;
                     }
                 })
@@ -68,8 +63,8 @@
                 });
 
             setTimeout(() => {
-                document.getElementById("message").innerHTML = ''; // Kosongkan elemen pesan
-            }, 2000);
+                document.getElementById("message").innerHTML = '';
+            }, 3000);
         });
     });
 </script>

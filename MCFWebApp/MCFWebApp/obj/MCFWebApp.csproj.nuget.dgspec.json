@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj": {}
+    "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj": {
+    "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
+        "projectUniqueName": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
         "projectName": "MCFWebApp",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApp\\MCFWebApp\\obj\\",
+        "projectPath": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\MCFWebApp.csproj",
+        "packagesPath": "C:\\Users\\821808\\.nuget\\packages\\",
+        "outputPath": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApp\\MCFWebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\821808\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,24 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

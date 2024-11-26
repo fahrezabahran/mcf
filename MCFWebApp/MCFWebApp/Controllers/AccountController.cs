@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using MCFWebApp.DTOs;
+﻿using MCFWebApp.DTOs;
 using MCFWebApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
 namespace MCFWebApp.Controllers
@@ -40,12 +39,20 @@ namespace MCFWebApp.Controllers
                 if (successResponse == null)
                     return Json(new { success = false, message = "Login Failed" });
 
+                HttpContext.Session.SetString("UserId", userDto.UserName);
                 return Json(new { success = true, redirectUrl = "/Home/Index" });
             }
             catch
             {
                 return Json(new { success = false, message = "Login Failed" });
             }
+        }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login", "Account");
         }
     }
 }

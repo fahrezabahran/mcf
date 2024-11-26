@@ -1,62 +1,62 @@
-﻿using MCFWebApi.Models;
-using MCFWebApi.Repositories;
+﻿using MCFWebApi.DTOs;
+using MCFWebApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MCFWebApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BpkbController : ControllerBase
-    {
-        private readonly IGenericRepository<Bpkb> _repository;
+	[Route("api/[controller]")]
+	[ApiController]
+	public class BpkbController : ControllerBase
+	{
+		private readonly IBpkbService _bpkbService;
+		public BpkbController(IBpkbService bpkbService)
+		{
+			_bpkbService = bpkbService;
+		}
 
-        public BpkbController(IGenericRepository<Bpkb> repository)
-        {
-            _repository = repository;
-        }
+		// GET: api/<BpkbController>
+		[HttpGet]
+		public async Task<IActionResult> Get()
+		{
+			var bpkbs = await _bpkbService.GetAllBpkb();
 
-        [HttpPost]
-        public async Task<ActionResult<Bpkb>> CreateBpkb(Bpkb Bpkb)
-        {
-            await _repository.CreateAsync(Bpkb);
-            return CreatedAtAction(nameof(GetBpkbById), new { id = Bpkb.AgreementNumber }, Bpkb);
-        }
+			return Ok(bpkbs);
+		}
 
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Bpkb>>> GetBpkbs()
-        {
-            var Bpkbs = await _repository.GetAllAsync();
-            return Ok(Bpkbs);
-        }
+		// GET api/<BpkbController>/5
+		[HttpGet("{agreementNumber}")]
+		public async Task<IActionResult> Get(string agreementNumber)
+		{
+			var user = await _bpkbService.GetBpkb(agreementNumber);
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Bpkb>> GetBpkbById(string id)
-        {
-            var Bpkb = await _repository.GetByIdAsync(id);
-            if (Bpkb == null)
-            {
-                return NotFound();
-            }
-            return Ok(Bpkb);
-        }
+			return Ok(user);
+		}
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBpkb(string id, Bpkb Bpkb)
-        {
-            if (id != Bpkb.AgreementNumber)
-            {
-                return BadRequest();
-            }
+		// POST api/<BpkbController>
+		[HttpPost]
+		public async Task<IActionResult> Post(BpkbDto bpkbDto)
+		{
+			await _bpkbService.CreateBpkb(bpkbDto);
 
-            await _repository.UpdateAsync(Bpkb);
-            return NoContent();
-        }
+			return Ok();
+		}
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteBpkb(string id)
-        {
-            await _repository.DeleteAsync(id);
-            return NoContent();
-        }
-    }
+		// PUT api/<BpkbController>/5
+		[HttpPut("{agreementNumber}")]
+		public async Task<IActionResult> Put(string agreementNumber, BpkbDto bpkbDto)
+		{
+			await _bpkbService.UpdateBpkb(agreementNumber, bpkbDto);
+
+			return Ok();
+		}
+
+		// DELETE api/<BpkbController>/5
+		[HttpDelete("{agreementNumber}")]
+		public async Task<IActionResult> Delete(string agreementNumber)
+		{
+			await _bpkbService.DeleteBpkb(agreementNumber);
+
+			return Ok();
+		}
+	}
 }

@@ -21,6 +21,8 @@ namespace MCFWebApp.DTOs
         [Required]
         public string PoliceNo { get; set; }
         [Required]
-        public string LokasiPenyimpanan { get; set; }
+        public string LocationId { get; set; } // Ganti dari LokasiPenyimpanan
+        [Required]
+        public string UserId { get; set; } // Tambahkan properti UserId
     }
 }

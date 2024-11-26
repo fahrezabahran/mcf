@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj": {}
+    "C:\\Data Reza\\Source Code\\mcf\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj": {
+    "C:\\Data Reza\\Source Code\\mcf\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+        "projectUniqueName": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
         "projectName": "MCFWebApi",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\MCF\\MCFWebApi\\MCFWebApi\\obj\\",
+        "projectPath": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApi\\MCFWebApi\\MCFWebApi.csproj",
+        "packagesPath": "C:\\Users\\821808\\.nuget\\packages\\",
+        "outputPath": "C:\\Data Reza\\Source Code\\mcf\\MCFWebApi\\MCFWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\821808\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,6 +57,20 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.1.0, )"
@@ -70,24 +87,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.32, 6.0.32]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

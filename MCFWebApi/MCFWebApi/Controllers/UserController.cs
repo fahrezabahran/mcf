@@ -1,33 +1,64 @@
-﻿using MCFWebApi.Services;
+﻿using MCFWebApi.DTOs;
+using MCFWebApi.Services;
 using Microsoft.AspNetCore.Mvc;
-using MCFWebApi.DTOs;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MCFWebApi.Controllers
 {
-    public class UserController : ControllerBase
-    {
-        private readonly IUserService _service;
+	[Route("api/[controller]")]
+	[ApiController]
+	public class UserController : ControllerBase
+	{
+		private readonly IUserService _userService;
+		public UserController(IUserService userService)
+		{
+			_userService = userService;
+		}
 
-        public UserController(IUserService service)
-        {
-            _service = service;
-        }
+		// GET: api/<UserController>
+		[HttpGet]
+		public async Task<IActionResult> Get()
+		{
+			var users = await _userService.GetAllUser();
 
-        [HttpPost("[action]")]
-        public async Task<IActionResult> LoginUser([FromBody] UserDto userDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                throw new Exception("Bad Request Data");
-            }
+			return Ok(users);
+		}
 
-            var result = await _service.ProcessLoginUser(userDto.UserName, userDto.Password);
-            if (result == null)
-            {
-                throw new Exception("Internal Data Error");
-            }
+		// GET api/<UserController>/5
+		[HttpGet("{id}")]
+		public async Task<IActionResult> Get(long id)
+		{
+			var user = await _userService.GetUser(id);
 
-            return Ok(new { success = true, status_code = StatusCodes.Status200OK, message = "Login Success", data = result });
-        }
-    }
+			return Ok(user);
+		}
+
+		// POST api/<UserController>
+		[HttpPost]
+		public async Task<IActionResult> Post([FromBody] UserDto userDto)
+		{
+			await _userService.CreateUser(userDto);
+
+			return Ok();
+		}
+
+		// PUT api/<UserController>/5
+		[HttpPut("{id}")]
+		public async Task<IActionResult> Put(long id, [FromBody] string password)
+		{
+			await _userService.UpdateUser(id, password);
+
+			return Ok();
+		}
+
+		// DELETE api/<UserController>/5
+		[HttpDelete("{id}")]
+		public async Task<IActionResult> Delete(int id)
+		{
+			await _userService.DeleteUser(id);
+
+			return Ok();
+		}
+	}
 }

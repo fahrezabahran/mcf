@@ -1,9 +1,9 @@
 ﻿using MCFWebApp.Data;
 using MCFWebApp.DTOs;
-using MCFWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace MCFWebApp.Controllers
 {
@@ -16,20 +16,36 @@ namespace MCFWebApp.Controllers
         {
             _context = context;
             _httpClient = httpClientFactory.CreateClient();
-            _apiBaseUrl = "https://localhost:7102";
+            _apiBaseUrl = "https://localhost:7102/api";
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var lokasiPenyimpanan = _context.MsStorageLocations
-                .Select(s => new SelectListItem
-                {
-                    Text = s.LocationName,
-                    Value = s.LocationId
-                })
-                .ToList();
+            var httpResponseMessage = await _httpClient.GetAsync($"{_apiBaseUrl}/Storage");
 
-            ViewBag.LokasiPenyimpanan = lokasiPenyimpanan;
+            if (httpResponseMessage.IsSuccessStatusCode)
+            {
+                var userId = HttpContext.Session.GetString("UserId");
+                var responseData = await httpResponseMessage.Content.ReadAsStringAsync();
+                var locations = JsonConvert.DeserializeObject<List<LocationDto>>(responseData);
+
+                ViewBag.LokasiPenyimpanan = locations.Select(l => new SelectListItem
+                {
+                    Value = l.LocationId,
+                    Text = l.LocationName
+                }).ToList();
+
+
+                ViewBag.LokasiPenyimpanan.Insert(0, new SelectListItem { Value = "", Text = "- Select -" });
+                ViewBag.UserId = userId;
+            }
+            else
+            {
+                ViewBag.LokasiPenyimpanan = new List<SelectListItem>
+                {
+                    new SelectListItem { Value = "", Text = "- Select -" }
+                };
+            }
             return View();
         }
 
@@ -41,15 +57,10 @@ namespace MCFWebApp.Controllers
             {
                 var httpResponseMessage = await _httpClient.PostAsJsonAsync($"{_apiBaseUrl}/Bpkb", model);
 
-                if (!httpResponseMessage.IsSuccessStatusCode)
+                if (!httpResponseMessage.StatusCode.Equals(HttpStatusCode.OK))
                     return Json(new { success = false, message = "Create Failed" });
 
                 var response = await httpResponseMessage.Content.ReadAsStringAsync();
-
-                var successResponse = JsonConvert.DeserializeObject<SuccessResponse<Bpkb>>(response);
-
-                if (successResponse == null)
-                    return Json(new { success = false, message = "Create Failed" });
 
                 return Json(new { success = true, message = "Create Success" });
             }
