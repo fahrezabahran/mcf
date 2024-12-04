@@ -149,7 +149,7 @@ namespace MCFWebApp.Controllers
                 var responseData = await httpResponseMessage.Content.ReadAsStringAsync();
                 var bpkbData = JsonConvert.DeserializeObject<BpkbDto>(responseData);
 
-                // Pastikan format yang dikembalikan sesuai dengan yang diharapkan di front-end
+                // Pastikan format yang dikembalikan sesuai dengan yang diharapkan di front-end 
                 return Json(bpkbData); // Kembalikan data dalam format JSON
             }
             catch (Exception ex)
