@@ -38,7 +38,7 @@ namespace MCFWebApp.Controllers
 
                 if (successResponse == null)
                     return Json(new { success = false, message = "Login Failed" });
-
+                //
                 HttpContext.Session.SetString("UserId", userDto.UserName);
                 return Json(new { success = true, redirectUrl = "/Home/Index" });
             }

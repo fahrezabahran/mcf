@@ -258,6 +258,15 @@ C:\Users\admin\source\repos\MCF\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\wi
 C:\Users\admin\source\repos\MCF\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\admin\source\repos\MCF\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\admin\source\repos\MCF\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.csproj.AssemblyReference.cache
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.AssemblyInfoInputs.cache
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.AssemblyInfo.cs
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.csproj.CoreCompileInputs.cache
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.RazorAssemblyInfo.cache
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.RazorAssemblyInfo.cs
+C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.sourcelink.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\appsettings.Development.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\appsettings.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\MCFWebApp.staticwebassets.runtime.json
@@ -494,15 +503,6 @@ C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\l
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.csproj.AssemblyReference.cache
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.AssemblyInfoInputs.cache
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.AssemblyInfo.cs
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.csproj.CoreCompileInputs.cache
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.RazorAssemblyInfo.cache
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.RazorAssemblyInfo.cs
-C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\MCFWebApp.sourcelink.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Data Reza\Source Code\mcf\MCFWebApp\MCFWebApp\obj\Debug\net6.0\staticwebassets\msbuild.MCFWebApp.Microsoft.AspNetCore.StaticWebAssets.props

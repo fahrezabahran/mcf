@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MCFWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cf14318be8ec2857338c6df18a4b779434e3d2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+296ec62afce9d801b072d3fafc106bb18bc7bf9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MCFWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MCFWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

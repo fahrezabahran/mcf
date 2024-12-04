@@ -78,14 +78,6 @@ C:\Users\admin\source\repos\MCF\MCFWebApi\MCFWebApi\obj\Debug\net6.0\refint\MCFW
 C:\Users\admin\source\repos\MCF\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.pdb
 C:\Users\admin\source\repos\MCF\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.genruntimeconfig.cache
 C:\Users\admin\source\repos\MCF\MCFWebApi\MCFWebApi\obj\Debug\net6.0\ref\MCFWebApi.dll
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.csproj.AssemblyReference.cache
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.AssemblyInfoInputs.cache
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.AssemblyInfo.cs
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.csproj.CoreCompileInputs.cache
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.sourcelink.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\appsettings.Development.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\appsettings.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\MCFWebApi.exe
@@ -355,6 +347,14 @@ C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\runtimes\win\l
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.csproj.AssemblyReference.cache
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.AssemblyInfoInputs.cache
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.AssemblyInfo.cs
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.csproj.CoreCompileInputs.cache
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\MCFWebApi.sourcelink.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Data Reza\Source Code\mcf\MCFWebApi\MCFWebApi\obj\Debug\net6.0\staticwebassets\msbuild.MCFWebApi.Microsoft.AspNetCore.StaticWebAssets.props

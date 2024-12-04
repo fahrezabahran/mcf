@@ -1,102 +1,227 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewData["Title"] = "Create BPKB Record";
+    ViewData["Title"] = "Manage BPKB Records";
 }
 
 <h2>@ViewData["Title"]</h2>
 
-<form id="bpkbForm">
-    @Html.AntiForgeryToken()
-    <div class="form-group">
-        <label for="AgreementNumber">Agreement Number</label>
-        <input type="text" class="form-control" id="AgreementNumber" name="AgreementNumber" maxlength="100" required />
-    </div>
-    <div class="form-group">
-        <label for="BranchId">Branch ID</label>
-        <input type="text" class="form-control" id="BranchId" name="BranchId" maxlength="10" required />
-    </div>
-    <div class="form-group">
-        <label for="BpkbNo">No. BPKB</label>
-        <input type="text" class="form-control" id="BpkbNo" name="BpkbNo" maxlength="100" required />
-    </div>
-    <div class="form-group">
-        <label for="BpkbDateIn">Tanggal BPKB In</label>
-        <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDate" required />
-    </div>
-    <div class="form-group">
-        <label for="BpkbDate">Tanggal BPKB</label>
-        <input type="date" class="form-control" id="BpkbDate" name="BpkbDate" required />
-    </div>
-    <div class="form-group">
-        <label for="FakturNo">No Faktur</label>
-        <input type="text" class="form-control" id="FakturNo" name="FakturNo" maxlength="100" required />
-    </div>
-    <div class="form-group">
-        <label for="FakturDate">Tanggal Faktur</label>
-        <input type="date" class="form-control" id="FakturDate" name="FakturDate" required />
-    </div>
-    <div class="form-group">
-        <label for="PoliceNo">Nomor Polisi</label>
-        <input type="text" class="form-control" id="PoliceNo" name="PoliceNo" maxlength="20" required />
-    </div>
-    <div class="form-group">
-        <label for="BpkbDateIn">Lokasi Penyimpanan</label>
-        <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDateIn" required />
-    </div>
-    <div class="form-group">
-        <label for="LocationId" class="form-label">Lokasi Penyimpanan</label>
-        <select class="form-control" id="LocationId" name="LocationId" required>
-            @if (ViewBag.LokasiPenyimpanan != null)
-            {
-                foreach (var item in ViewBag.LokasiPenyimpanan as List<SelectListItem>)
-                {
-                    <option value="@item.Value">@item.Text</option>
-                }
-            }
-        </select>
-    </div>
-    <div><input type="hidden" name="UserId" value="@ViewBag.UserId" /></div>
-    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-</form>
+<div class="mb-3">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createModal">Add New Record</button>
+</div>
 
-<div id="result"></div>
+<!-- Table to Display Records -->
+<table class="table table-striped" id="bpkbTable">
+    <thead>
+        <tr>
+            <th>Agreement Number</th>
+            <th>Branch ID</th>
+            <th>No. BPKB</th>
+            <th>BPKB Date In</th>
+            <th>BPKB Date</th>
+            <th>Faktur No</th>
+            <th>Faktur Date</th>
+            <th>Police No</th>
+            <th>Location ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows dynamically populated via JavaScript -->
+    </tbody>
+</table>
+
+<!-- Create/Update Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createModalLabel">Add/Edit Record</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="bpkbForm">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="UserId" name="UserId" value="@ViewBag.UserId" />
+                    <input type="hidden" id="AgreementNumberHidden" name="AgreementNumberHidden" />
+
+                    <div class="form-group">
+                        <label for="AgreementNumber">Agreement Number</label>
+                        <input type="text" class="form-control" id="AgreementNumber" name="AgreementNumber" maxlength="100" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="BranchId">Branch ID</label>
+                        <input type="text" class="form-control" id="BranchId" name="BranchId" maxlength="10" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="BpkbNo">No. BPKB</label>
+                        <input type="text" class="form-control" id="BpkbNo" name="BpkbNo" maxlength="100" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="BpkbDateIn">BPKB Date In</label>
+                        <input type="date" class="form-control" id="BpkbDateIn" name="BpkbDateIn" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="BpkbDate">BPKB Date</label>
+                        <input type="date" class="form-control" id="BpkbDate" name="BpkbDate" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="FakturNo">Faktur No</label>
+                        <input type="text" class="form-control" id="FakturNo" name="FakturNo" maxlength="100" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="FakturDate">Faktur Date</label>
+                        <input type="date" class="form-control" id="FakturDate" name="FakturDate" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="PoliceNo">Police No</label>
+                        <input type="text" class="form-control" id="PoliceNo" name="PoliceNo" maxlength="20" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="LocationId" class="form-label">Location ID</label>
+                        <select class="form-control" id="LocationId" name="LocationId" required>
+                            @if (ViewBag.LokasiPenyimpanan != null)
+                            {
+                                foreach (var item in ViewBag.LokasiPenyimpanan as List<SelectListItem>)
+                                {
+                                    <option value="@item.Value">@item.Text</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 @section Scripts {
-<script>
-        document.getElementById("bpkbForm").addEventListener("submit", function (event) {
-            event.preventDefault();
+    <script>
+        function formatDate(dateString) {
+            var date = new Date(dateString);
+            return date.toLocaleDateString('id-ID'); // Format tanggal dalam bahasa Indonesia
+        }
 
-            var formData = new FormData(this);
+        function formatDateForInput(dateString) {
+            var date = new Date(dateString);
+            var year = date.getFullYear();
+            var month = ("0" + (date.getMonth() + 1)).slice(-2); // Bulan harus dua digit
+            var day = ("0" + date.getDate()).slice(-2); // Tanggal harus dua digit
+            return `${year}-${month}-${day}`; // Format untuk input type="date"
+        }
 
-            fetch('@Url.Action("Create", "Home")', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
-                }
-            })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.success) {
-                        document.getElementById("result").innerHTML = "<div class='alert alert-success'>Record created successfully!</div>";
-                        document.getElementById("bpkbForm").reset(); // Reset form jika berhasil
-                    } else {
-                        document.getElementById("result").innerHTML = "<div class='alert alert-danger'>Error: " + data.message + "</div>";
-                    }
 
-                    setTimeout(() => {
-                        document.getElementById("result").innerHTML = '';
-                    }, 2000); // 2 detik
-                })
-                .catch(error => {
-                    document.getElementById("result").innerHTML = "<div class='alert alert-danger'>An error occurred!</div>";
+        $(document).ready(function () {
+            loadTable();
 
-                    setTimeout(() => {
-                        document.getElementById("result").innerHTML = '';
-                    }, 2000); // 2 detik
+            // Load Table Data
+            function loadTable() {
+                $.get('/Bpkb/GetAll', function (data) {
+                    var tableBody = '';
+                    data.forEach(function (item) {
+                        tableBody += `
+                                <tr>
+                                    <td>${item.agreementNumber}</td>
+                                    <td>${item.branchId}</td>
+                                    <td>${item.bpkbNo}</td>
+                                    <td>${formatDate(item.bpkbDateIn)}</td> <!-- Format tanggal -->
+                                    <td>${formatDate(item.bpkbDate)}</td> <!-- Format tanggal -->
+                                    <td>${item.fakturNo}</td>
+                                    <td>${formatDate(item.fakturDate)}</td> <!-- Format tanggal -->
+                                    <td>${item.policeNo}</td>
+                                    <td>${item.locationId}</td>
+                                    <td>
+                                        <button class="btn btn-warning btn-sm edit-btn" data-id="${item.agreementNumber}">Edit</button>
+                                        <button class="btn btn-danger btn-sm delete-btn" data-id="${item.agreementNumber}">Delete</button>
+                                    </td>
+                                </tr>
+                            `;
+                    });
+                    $('#bpkbTable tbody').html(tableBody);
                 });
+            }
+
+            $('#bpkbForm').on('submit', function (event) {
+                event.preventDefault();
+                var formData = $(this).serialize();
+                var agreementNumber = $('#AgreementNumberHidden').val();
+                var url = agreementNumber ? `/Bpkb/Update/${agreementNumber}` : '/Bpkb/Create';
+
+                $.post(url, formData, function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        $('#createModal').modal('hide');
+                        loadTable();
+
+                        // Reset the form after successful submission
+                        $('#bpkbForm')[0].reset(); // This will reset the form inputs
+                        $('#AgreementNumberHidden').val(''); // Ensure hidden field is cleared
+                    } else {
+                        alert(response.message);
+                    }
+                });
+            });
+
+            $(document).on('click', '.edit-btn', function () {
+                var agreementNumber = $(this).data('id'); // Use .data('id') to get the correct agreementNumber
+                console.log('Edit button clicked, agreementNumber:', agreementNumber); // Check the log
+
+                $.get(`/Bpkb/Get/${agreementNumber}`, function (data) {
+                    if (data.success === false) {
+                        alert(data.message); // Menampilkan pesan error jika gagal
+                    } else {
+                        // Isi data ke form modal
+                        $('#AgreementNumberHidden').val(data.agreementNumber);
+                        $('#AgreementNumber').val(data.agreementNumber);
+                        $('#BranchId').val(data.branchId);
+                        $('#BpkbNo').val(data.bpkbNo);
+                        $('#BpkbDateIn').val(formatDateForInput(data.bpkbDateIn)); // Format tanggal BpkbDateIn
+                        $('#BpkbDate').val(formatDateForInput(data.bpkbDate)); // Format tanggal BpkbDate
+                        $('#FakturNo').val(data.fakturNo);
+                        $('#FakturDate').val(formatDateForInput(data.fakturDate)); // Format tanggal FakturDate
+                        $('#PoliceNo').val(data.policeNo);
+                        $('#LocationId').val(data.locationId);
+                        $('#createModal').modal('show'); // Tampilkan modal
+                    }
+                }).fail(function (xhr, status, error) {
+                    console.error('Error:', error); // Log error ke console
+                    alert('Failed to fetch data, please try again.');
+                });
+            });
+
+            $(document).on('click', '.delete-btn', function () {
+                var agreementNumber = $(this).data('id'); // Use .data('id') to get the correct agreementNumber
+                console.log('Delete button clicked, agreementNumber:', agreementNumber); // Check the log
+
+                if (confirm("Are you sure you want to delete this record?")) {
+                    $.ajax({
+                        url: '/Bpkb/Delete/' + agreementNumber, // Use path URL with agreementNumber
+                        type: 'DELETE',
+                        data: {
+                            __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val() // Anti-forgery token
+                        },
+                        success: function (response) {
+                            if (response.success) {
+                                alert(response.message);
+                                loadTable(); // Reload the table after successful deletion
+                            } else {
+                                alert(response.message);
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            console.log('Error:', status, error);
+                            alert('An error occurred while trying to delete the record.');
+                        }
+                    });
+                }
+            });
+
+            // Reset form when modal is closed
+            $('#createModal').on('hidden.bs.modal', function () {
+                $('#bpkbForm')[0].reset(); // Reset form inputs
+                $('#AgreementNumberHidden').val(''); // Clear hidden input
+            });
         });
 
-
-</script>
+    </script>
 }
